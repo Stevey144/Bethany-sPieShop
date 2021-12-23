@@ -1,0 +1,41 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Migrations\20211218124413_InitialMigration.cs" />
+    <Compile Remove="Migrations\20211218124413_InitialMigration.Designer.cs" />
+    <Compile Remove="Migrations\20211223082347_IdentityAdded.cs" />
+    <Compile Remove="Migrations\20211223082347_IdentityAdded.Designer.cs" />
+    <Compile Remove="Migrations\20211223084826_IdentityAdded.cs" />
+    <Compile Remove="Migrations\20211223084826_IdentityAdded.Designer.cs" />
+    <Compile Remove="Migrations\20211223090242_orderdeleted.cs" />
+    <Compile Remove="Migrations\20211223090242_orderdeleted.Designer.cs" />
+    <Compile Remove="Migrations\20211223092346_orderAdded.cs" />
+    <Compile Remove="Migrations\20211223092346_orderAdded.Designer.cs" />
+    <Compile Remove="Migrations\20211223092844_orderAdded.cs" />
+    <Compile Remove="Migrations\20211223092844_orderAdded.Designer.cs" />
+    <Compile Remove="Migrations\20211223093105_orderAdded.cs" />
+    <Compile Remove="Migrations\20211223093105_orderAdded.Designer.cs" />
+    <Compile Remove="Migrations\20211223094151_IdentityAdded.cs" />
+    <Compile Remove="Migrations\20211223094151_IdentityAdded.Designer.cs" />
+    <Compile Remove="Migrations\20211223100030_orderUpdates.cs" />
+    <Compile Remove="Migrations\20211223100030_orderUpdates.Designer.cs" />
+    <Compile Remove="Migrations\20211223102407_updatedMany.cs" />
+    <Compile Remove="Migrations\20211223102407_updatedMany.Designer.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="3.1.21" />
+    <PackageReference Include="Microsoft.AspNetCore.Identity.UI" Version="3.1.21" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="3.1.21" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="3.1.21">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="3.1.5" />
+  </ItemGroup>
+
+</Project>
